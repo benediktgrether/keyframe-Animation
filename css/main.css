@@ -100,3 +100,23 @@ h1 {
     transform: translate(0);
   }
 }
+@media (max-width: 480px) {
+  .position {
+    margin-top: 100px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    -webkit-transform: translate(-30%, -30%);
+    transform: translate(-30%, -30%);
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  .position {
+    margin-top: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+  }
+}
